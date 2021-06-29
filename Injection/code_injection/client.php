@@ -4,10 +4,6 @@
 	<title>Code Injection</title>
 </head>
 <body>
-	<h2>Enter your name</h2>
-	<form method='GET' action='server.php'>
-		<input type="text" name="user">
-		<input type="submit" name="login" value="Login">
-	</form>
+	<p>Click <a href="server.php?page=login.php">here</a> to get login page.</p>
 </body>
 </html>
